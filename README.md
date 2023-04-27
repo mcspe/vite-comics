@@ -10,7 +10,7 @@ Per oggi diamo priorità alla struttura: quando è tutto bello solido, passiamo 
 
 Creare un componente aggiuntivo per gestire la fascia azzurra con le icone
 
-![alt template](public\dc-comics-empty-layout.png)
+![alt template](/dc-comics-empty-layout.png)
 
 ## Recommended IDE Setup
 
