@@ -10,6 +10,8 @@ Per oggi diamo priorità alla struttura: quando è tutto bello solido, passiamo 
 
 Creare un componente aggiuntivo per gestire la fascia azzurra con le icone
 
+![alt template](public\dc-comics-empty-layout.png)
+
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
