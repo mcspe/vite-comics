@@ -19,6 +19,6 @@
   <Footer />
 </template>
 
-<style>
-  
+<style lang="scss">
+  @use './scss/style.scss';
 </style>

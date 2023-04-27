@@ -1,0 +1,15 @@
+@use './vars' as *;
+@import '@fontsource/sawarabi-gothic/index.css';
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Sawarabi gothic', sans-serif;
+}
+
+.container {
+  width: 75%;
+  max-width: 1200px;
+  margin: 0 auto;
+}

@@ -8,6 +8,6 @@
   <h1>Main</h1>
 </template>
 
-<style>
-
+<style lang="scss" scoped>
+  @use '../scss/partials/main';
 </style>

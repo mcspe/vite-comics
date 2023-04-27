@@ -1,0 +1,18 @@
+@use './vars' as *;
+@import './general';
+
+header{
+  .container{
+    background-color: white;
+    display: flex;
+  
+    nav{
+      ul{
+        list-style: none;
+        li{
+          display: inline-block;
+        }
+      }
+    }
+  }
+}
