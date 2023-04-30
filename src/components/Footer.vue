@@ -1,13 +1,24 @@
 <script>
+  import FooterCTA from './partials/FooterCTA.vue';
+  import FooterMenu from './partials/FooterMenu.vue';
+  import FooterConnect from './partials/FooterConnect.vue';
+
   export default {
-    name: 'Footer'
+    name: 'Footer',
+    components: {
+      FooterCTA,
+      FooterMenu,
+      FooterConnect
+    }
   }
 </script>
 
 <template>
-  <!-- <h1>Footer</h1> -->
+  <FooterCTA />
+  <FooterMenu />
+  <FooterConnect />
 </template>
 
-<style>
+<style lang="scss" scoped>
 
 </style>
