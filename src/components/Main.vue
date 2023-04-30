@@ -5,9 +5,9 @@
 </script>
 
 <template>
-  <h1>Main</h1>
+  <!-- <h1>Main</h1> -->
 </template>
 
 <style lang="scss" scoped>
-  @use '../scss/partials/main';
+
 </style>

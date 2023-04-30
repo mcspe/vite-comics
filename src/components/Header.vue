@@ -33,5 +33,60 @@
 </template>
 
 <style lang="scss" scoped>
-  @import '../scss/partials/header';
+  @use '../scss/partials/vars' as *;
+  @import '../scss/partials/general';
+
+  header{
+    .container{
+      background-color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 5rem;
+      padding: .5rem;
+
+      .logo{
+        height: 100%;
+
+        img{
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+
+      nav{
+        height: 100%;
+        
+        ul{
+          list-style: none;
+          height: 100%;
+
+          li{
+            display: inline-block;
+            height: 100%;
+            line-height: 4rem;
+            margin: 0 .5rem;
+
+            a{
+              display: inline-block;
+              height: 100%;
+              font-size: .7rem;
+              color: $primary-dark;
+              text-decoration: none;
+              text-transform: uppercase;
+              &:hover{
+                color: $primary-blue;
+                box-shadow: 0 .3rem 0 $primary-blue;
+              }
+              &.active{
+                color: $primary-blue;
+                box-shadow: 0 .3rem 0 $primary-blue;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 </style>

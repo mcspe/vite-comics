@@ -20,5 +20,5 @@
 </template>
 
 <style lang="scss">
-  @use './scss/style.scss';
+  @use './scss/main.scss';
 </style>

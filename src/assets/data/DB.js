@@ -8,7 +8,7 @@ const menus = {
     {
       label: 'Comics',
       href: '#',
-      isActive: false
+      isActive: true
     },
     {
       label: 'Movies',
